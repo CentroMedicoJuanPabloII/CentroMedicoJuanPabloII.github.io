@@ -44,14 +44,43 @@
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="tel:8850-86-29">Llamenos 2685 59 87</a>
                 <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger" href="tel:8850-86-29">Whatsapp 8850 86 29</a>
 
-
+ <!--
     <title>Prueba WhatsApp</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <a href="https://wa.me/50688508629?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <a href="https://wa.me/50688508629?text=coche" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
     
 </body>
+-->
+
+
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v7.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="1865265587120737"
+  theme_color="#fa3c4c"
+  logged_in_greeting="¿Hola en cómo podemos ayudarte?"
+  logged_out_greeting="¿Hola en cómo podemos ayudarte?">
+      </div>
 
 
 
