@@ -2473,11 +2473,13 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #fed136;
   border-color: #fed136;
+  box-shadow:  5px 3px 3px #888888;
 }
 .btn-primary:hover {
   color: #fff;
   background-color: #fec810;
   border-color: #fec503;
+
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -2503,6 +2505,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #6c757d;
   border-color: #6c757d;
+  box-shadow:  5px 3px 3px #888888;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -10181,7 +10184,7 @@ header.masthead .masthead-heading {
   header.masthead .masthead-heading {
     color: black;
     font-size: 4rem;
-      text-shadow: 2px 2px 8px gray;
+      text-shadow: 2px 2px 14px gray;
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
@@ -10512,20 +10515,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.whatsapp {
-  position:fixed;
-  width:60px;
-  height:60px;
-  bottom:40px;
-  right:40px;
-  background-color:#25d366;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:30px;
-  z-index:100;
+.lista {
+  list-style-type: disc;
+  color: black;
+  text-align: left;  
 }
 
-.whatsapp-icon {
-  margin-top:13px;
-}
