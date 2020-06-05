@@ -1,0 +1,29 @@
+<svg width="560" height="106" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="562" height="108" id="canvas_background" fill="none"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_12" width="640" height="480" x="1" y="1" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_14">
+   <text stroke="#000" fill="#ffffff" stroke-width="0" x="86.200332" y="36.773755" id="svg_1" font-size="35" font-family="Georgia, Times, 'Times New Roman', serif" text-anchor="start" xml:space="preserve" font-weight="bold" transform="matrix(1.201243227321252,0,0,1.158094970853432,41.10133422752514,5.681140310752448) ">CENTRO MÉDICO</text>
+   <text stroke="#000" fill="#ffffff" stroke-width="0" x="121.569523" y="88.591054" id="svg_2" font-size="35" font-family="Georgia, Times, 'Times New Roman', serif" text-anchor="start" xml:space="preserve" transform="matrix(1.7592103986348289,0,0,1.6140049283545606,-101.1741288297073,-47.516930323814236) ">JUAN PABLO II</text>
+   <path stroke="#000" fill="#ff0000" stroke-width="0" stroke-opacity="null" d="m65.015884,22.435373c28.467683,-47.758025 125.250881,0 0,81.974603c-125.250882,-81.974603 -23.467683,-131.732628 0,-81.974603z" id="svg_3"/>
+   <path stroke="#000" fill="none" stroke-width="0" stroke-opacity="null" id="svg_11" d="m61.240602,76.658097c0,0 0.109951,0 0.219875,0c0.109951,0 0.219901,0 0.329826,0c0.109951,0 0.219901,0 0.219901,0c0,0.100851 0.109924,0.100851 0.109924,0.201726c0,0.100875 0,0.201726 -0.109924,0.201726c0,0 -0.109951,0 -0.219901,0c-0.219875,0 -0.219875,0 -0.219875,-0.100851c0,0 0,-0.100875 0,-0.201751l0,-0.100851l0,-0.100875l0,0"/>
+   <g stroke="null" id="svg_15">
+    <line stroke-width="3" stroke="#ffffff" fill="none" x1="117.057023" y1="56.624209" x2="93.819974" y2="56.993881" id="svg_4" stroke-linejoin="null" stroke-linecap="null"/>
+    <line stroke-width="3" stroke="#ffffff" fill="none" x1="94.155655" y1="56.531824" x2="91.134329" y2="71.780776" id="svg_5" stroke-linejoin="null" stroke-linecap="null"/>
+    <line stroke-width="3" stroke="#ffffff" fill="none" x1="91.134331" y1="71.780776" x2="82.657738" y2="42.114522" id="svg_6" stroke-linejoin="null" stroke-linecap="null"/>
+    <line stroke-width="3" stroke="#ffffff" fill="none" x1="82.909524" y1="42.022165" x2="77.957905" y2="63.463161" id="svg_7" stroke-linejoin="null" stroke-linecap="null"/>
+    <line stroke-width="3" stroke="#ffffff" fill="none" x1="78.041802" y1="63.647984" x2="72.838375" y2="48.86109" id="svg_8" stroke-linejoin="null" stroke-linecap="null"/>
+    <line stroke-width="3" stroke="#ffffff" fill="none" x1="73.006218" y1="48.491417" x2="69.817047" y2="57.271116" id="svg_9" stroke-linejoin="null" stroke-linecap="null"/>
+    <line stroke-width="3" stroke="#ffffff" fill="none" x1="70.320545" y1="56.993881" x2="60.24361" y2="56.993881" id="svg_10" stroke-linejoin="null" stroke-linecap="null"/>
+   </g>
+  </g>
+ </g>
+</svg>
