@@ -29,6 +29,7 @@
 
 
  <header>
+
           <div id="cajaPreguntas">
           <!-- Full Page Intro -->
           <div class="container-fluid" id="lafoto"  style="background-image: url('img/1.png'); background-repeat: no-repeat; background-size: auto; background-position: center center; height: 400px;">
@@ -416,7 +417,39 @@
                                     i.style.fontSize ="xx-large";}
             function VolveraJugar(){location.reload();}
 
-            function CompartirFB(){window.open("https://www.facebook.com/sharer/sharer.php?u=www.centromedicoJuanPabloII.com", '_blank');}
+            function CompartirFB(){
+                                    switch (marcador) {
+                                      case 10:
+                                        window.open("https://centromedicojuanpabloii.com/Quices/img/welcome10.png", '_blank');
+                                        break;
+                                      case 1:
+                                        window.open("https://centromedicojuanpabloii.com/Quices/img/welcome1.png", '_blank');
+                                        break;
+                                      case 2:
+                                         window.open("https://centromedicojuanpabloii.com/Quices/img/welcome1.png", '_blank');
+                                        break;
+                                      case 3:
+                                        window.open("https://centromedicojuanpabloii.com/Quices/img/welcome1.png", '_blank');
+                                        break;
+                                      case 4:
+                                        window.open("https://centromedicojuanpabloii.com/Quices/img/welcome2.png", '_blank');
+                                        break;
+                                      case 5:
+                                        window.open("https://centromedicojuanpabloii.com/Quices/img/welcome5.png", '_blank');
+                                        break;
+                                      case 6:
+                                        window.open("https://centromedicojuanpabloii.com/Quices/img/welcome5.png", '_blank');
+                                        break;
+                                      case 7:
+                                        window.open("https://centromedicojuanpabloii.com/Quices/img/welcome8.png", '_blank');
+                                        break;
+                                      case 8:
+                                        window.open("https://centromedicojuanpabloii.com/Quices/img/welcome8.png", '_blank');
+                                        break;
+                                      case 9:
+                                        window.open("https://centromedicojuanpabloii.com/Quices/img/welcome9.png", '_blank');
+                                        
+                                    }}
 
 
 
@@ -544,8 +577,22 @@
                  }};
 
 
+document.getElementById('BtnCompartir').onclick = function() {
+  FB.ui({
+    display: 'popup',
+    method: 'share_open_graph',
+    action_type: 'og.likes',
+    action_properties: JSON.stringify({
+        object:'https://centromedicojuanpabloii.com/Quices/welcome1.html',
+    })
+  }, function(response){});
+}
+
+
 
  
+
+
 
       
     
