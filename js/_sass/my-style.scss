@@ -1,0 +1,65 @@
+// You can add CSS rules here that will be inlucded in Hydejack's CSS file
+
+/*@font-face {
+    font-family: "Noto Serif CJK SC";
+    src: url("https://gitee.com/h00kran/blog-assets/raw/master/fonts/NotoSerifCJKsc-Bold.otf");
+}
+
+@font-face {
+    font-family: "Noto Sans CJK SC";
+    src: url("https://gitee.com/h00kran/blog-assets/raw/master/fonts/NotoSansCJKsc-Regular.otf");
+}
+
+@font-face {
+    font-family: "Noto Color Emoji";
+    src: url("https://gitee.com/h00kran/blog-assets/raw/master/fonts/NotoColorEmoji.ttf");
+}*/
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC,
+        Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC,
+        WenQuanYi Micro Hei, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.heading {
+    font-weight: bold;
+}
+
+code,
+pre {
+    font-family: Menlo, Monaco, Consolas, Courier New, -apple-system,
+        BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei,
+        Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, monospace;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input#searchBox {
+    position: absolute;
+    right: 20pt;
+    top: 20pt;
+}
+
+iframe {
+    border-width: 0;
+}
