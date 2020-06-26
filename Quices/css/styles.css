@@ -553,6 +553,52 @@ pre code {
   overflow-y: scroll;
 }
 
+
+<style>
+div.Pregunta {
+  padding: 20px;
+}
+
+@media screen and (min-width: 440px) {
+  div.Pregunta {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 740px) {
+  div.Pregunta {
+    font-size: 35px;
+ }
+}
+
+@media screen and (min-width: 940px) {
+  div.Pregunta {
+    font-size: 35px;
+  padding-left: 50px;
+  padding-right: 50px;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  div.Pregunta {
+    font-size: 35px;
+  padding-left: 320px;
+  padding-right: 320px;
+  }
+}
+
+
+}
+</style>
+
+
+
+
+
+
+
+
+
 .container {
   width: 100%;
   padding-right: 0.75rem;
@@ -10265,7 +10311,8 @@ color: #FFFFFF;
 #preguntame2 {
 
 font-family: "Trebuchet MS", Helvetica, sans-serif;
-font-size: 1.25rem;
+font-size: 1.45rem;
+
 color: #FFFFFF;
 text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
 color: #FFFFFF;
