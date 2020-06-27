@@ -103,7 +103,7 @@
     <div class="col text-center">
           <div id="cajaFeedBackfinal" style="display:none"; >
           <!-- Full Page Intro -->
-          <div class="portait" id="fotofinal" class="col-12" > <img maxHeight=400px id=mifotofinal src=""></div>
+          <div class="portait" id="fotofinal" class="col-12" > <img id=mifotofinal src=""></div>
                      <!-- Mask & flexbox options-->
             
                     <h6>Si te gustó... porfa dale  ↓↓ Me gusta ↓↓</h6>
@@ -199,8 +199,8 @@
               ,ans_3:"Pedacito de Cielo" 
               ,ans_4:"El Lagarto de la montaña" 
               ,ans_ok:2
-              ,imagenFondo:"img/q1.png"
-              ,imagenrespuesta:"img/a1.png"
+              ,imagenFondo:"img/q1.jpg"
+              ,imagenrespuesta:"img/a1.jpg"
             };
         // Pregunta 2 *****************************************
         const p2 = 
@@ -214,8 +214,8 @@
               ,ans_3:"La Cabra" 
               ,ans_4:"¡Anaconda!" 
               ,ans_ok:3
-              ,imagenFondo:"img/q2.png"
-              ,imagenrespuesta:"img/a2.png"
+              ,imagenFondo:"img/q2.jpg"
+              ,imagenrespuesta:"img/a2.jpg"
             };
 
         // Pregunta 3 *****************************************
@@ -230,8 +230,8 @@
               ,ans_3:"Apaches" 
               ,ans_4:"Huetares" 
               ,ans_ok:4
-              ,imagenFondo:"img/q3.png"
-              ,imagenrespuesta:"img/a3.png"
+              ,imagenFondo:"img/q3.jpg"
+              ,imagenrespuesta:"img/a3.jpg"
             };
         // Pregunta 4 *****************************************
         const p4 = 
@@ -245,8 +245,8 @@
               ,ans_3:"Su nombre oficial es Cerro Tilarán" 
               ,ans_4:"¡Todas son Correctas!" 
               ,ans_ok:4
-              ,imagenFondo:"img/q4.png"
-              ,imagenrespuesta:"img/a4.png"
+              ,imagenFondo:"img/q4.jpg"
+              ,imagenrespuesta:"img/a4.jpg"
             };
         // Pregunta 5 *****************************************
         const p5 = 
@@ -260,8 +260,8 @@
               ,ans_3:"Café y Maíz" 
               ,ans_4:"Olivo y Algodón" 
               ,ans_ok:3
-              ,imagenFondo:"img/q5.png"
-              ,imagenrespuesta:"img/a5.png"
+              ,imagenFondo:"img/q5.jpg"
+              ,imagenrespuesta:"img/a5.jpg"
             };
         // Pregunta 6 *****************************************
         const p6 = 
@@ -275,8 +275,8 @@
               ,ans_3:"1981" 
               ,ans_4:"No mienta, en Tilarán No tiembla" 
               ,ans_ok:2
-              ,imagenFondo:"img/q6.png"
-              ,imagenrespuesta:"img/a6.png"
+              ,imagenFondo:"img/q6.jpg"
+              ,imagenrespuesta:"img/a6.jpg"
             };
         // Pregunta 7 *****************************************
         const p7 = 
@@ -290,8 +290,8 @@
               ,ans_3:"Es el nombre de un árbol" 
               ,ans_4:"Es por una señora muy brava que vivía ahí" 
               ,ans_ok:3
-              ,imagenFondo:"img/q7.png"
-              ,imagenrespuesta:"img/a7.png"
+              ,imagenFondo:"img/q7.jpg"
+              ,imagenrespuesta:"img/a7.jpg"
             };
         // Pregunta 8 *****************************************
         const p8 = 
@@ -305,8 +305,8 @@
               ,ans_3:"Siete" 
               ,ans_4:"Ocho" 
               ,ans_ok:3
-              ,imagenFondo:"img/q8.png"
-              ,imagenrespuesta:"img/a8.png"
+              ,imagenFondo:"img/q8.jpg"
+              ,imagenrespuesta:"img/a8.jpg"
             };
         // Pregunta 9 *****************************************
         const p9 = 
@@ -320,8 +320,8 @@
               ,ans_3:"105 años" 
               ,ans_4:"99 años" 
               ,ans_ok:2
-              ,imagenFondo:"img/q9.png"
-              ,imagenrespuesta:"img/a9.png"
+              ,imagenFondo:"img/q9.jpg"
+              ,imagenrespuesta:"img/a9.jpg"
             };
         // Pregunta 10 *****************************************
         const p10 = 
@@ -335,8 +335,8 @@
               ,ans_3:"San Bartolomé" 
               ,ans_4:"San Isidro" 
               ,ans_ok:2
-              ,imagenFondo:"img/qX.png"
-              ,imagenrespuesta:"img/aX.png"
+              ,imagenFondo:"img/qX.jpg"
+              ,imagenrespuesta:"img/aX.jpg"
             };
         // Respuestas *****************************************
         const p11 = 
@@ -346,7 +346,7 @@
               ,badfeedback:""
               // VVV OPCIONES DE RESPUESTA VVV
               ,ans_1:"1",ans_2:"C",ans_3:"H",ans_4:"T;)",ans_ok:4
-              ,imagenFondo:"img/ffinal.png" ,imagenrespuesta:"img/ffinal.png"
+              ,imagenFondo:"img/ffinal.jpg" ,imagenrespuesta:"img/ffinal.jpg"
             };
         // Respuestas *****************************************
         const p12 = 
@@ -356,7 +356,7 @@
               ,badfeedback:"blank3"
               // VVV OPCIONES DE RESPUESTA VVV
               ,ans_1:"1",ans_2:"C",ans_3:"H",ans_4:"T;)",ans_ok:4
-              ,imagenFondo:"img/ffinal.png" ,imagenrespuesta:"img/ffinal2.png"
+              ,imagenFondo:"img/ffinal.jpg" ,imagenrespuesta:"img/ffinal2.jpg"
             };
         // Respuestas *****************************************
 
@@ -574,17 +574,17 @@
                                 x.style.display="none";    
                                 //revisemos como le fué a este  muchacho
                                 if (marcador<3){ mensaje = pesimo; sombraRoja();
-                                fondoPremio("img/welcome3.png");}  
+                                fondoPremio("img/welcome3.jpg");}  
                                   else{ if (marcador<5){ mensaje = masomenos; sombraNaranja();
-                                    fondoPremio("img/welcome5.png");} 
+                                    fondoPremio("img/welcome5.jpg");} 
                                    
                                           else{ if (marcador<7){ mensaje = casicasi;sombraVerde();
-                                            fondoPremio("img/welcome8.png");}  
+                                            fondoPremio("img/welcome8.jpg");}  
                                                   else{  if (marcador<9){ mensaje = bien; 
-                                                    fondoPremio("img/welcome9.png");
+                                                    fondoPremio("img/welcome9.jpg");
                                                     sombraAzul();}  
                                                           else{mensaje=unpro;
-                                                          fondoPremio("img/welcome10.png");
+                                                          fondoPremio("img/welcome10.jpg");
                                                             sombraAzul();}
                                                        }
                                               }          
