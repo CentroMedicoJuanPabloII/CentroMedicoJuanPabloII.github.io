@@ -8,7 +8,8 @@
         <meta name="author" content="" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Aprendamos con el Centro Médico</title>
+        <title>CENTRO MÉDICO JUAN PABLO II TILARÁN | TRIVIA </title>
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
@@ -36,7 +37,7 @@
 
           <div id="cajaPreguntas">
           <!-- Full Page Intro -->
-          <div class="container-fluid" id="lafoto"  style="background-repeat: no-repeat; background-size: auto; background-position: center center; height: 400px;">
+          <div class="container-fluid" id="lafoto"  style="background-repeat: no-repeat; background-size: auto; background-position: center center; min-height: 600px;">
 
             <!-- <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
            
@@ -51,10 +52,10 @@
                   <!--Grid column-->
 
                   <div id=preguntame class="col-md-12 mb-4 white-text text-center">
-                    <h5  class="text-uppercase mb-4 white-text wow fadeInDown"  data-wow-delay="0.4s"><strong><span id="titulo-Var"></span></strong></h5>
+                    <h5  style = "font-family:georgia,garamond,serif;color:white"  data-wow-delay="0.4s"><strong><span id="titulo-Var"></span></strong></h5>
                                      
 
-                    <div class="Pregunta" class="col-md-12 mb-4 white-text text-center" ><span id="pregunta-Var"></span></div>
+                    <div class="Pregunta" style = "font-family:georgia,garamond,serif;color:white"  class="col-md-12 mb-4" ><strong><span id="pregunta-Var"></span></strong></div>
                     
                     
                   </div></div></div></div></div></div></div>
@@ -82,7 +83,8 @@
 
           <div id="cajaFeedBack" style="display:none"; >
           <!-- Full Page Intro -->
-          <div class="container-fluid" id="laotrafoto"  style="background-image: url('https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg'); background-repeat: no-repeat; background-size: auto; background-position: center center; height: 400px;">
+          <div class="container-fluid" id="laotrafoto"  style="background-repeat: no-repeat; background-size: auto; background-position: center center; min-height: 600px;">
+
                      <!-- Mask & flexbox options-->
             <div class="mask rgba-black-light align-items-center">
               <!-- Content -->
@@ -90,11 +92,11 @@
                 <!--Grid row-->
                 <div class="row">
                   <!--Grid column-->
-                  <div id=preguntame2 class= "col-12 center-block text-center">
-                    <div><strong><span id="titulo2-Var"></span></strong></h5>
+                  <div  style = "font-family:georgia,garamond,serif;color:white" class= "col-12 center-block text-center">
+                    <div id=preguntame2 ><strong><span id="titulo2-Var"></span></strong></h5>
                     <br></br>
                     
-                    <div class="Pregunta" class="col-md-6 mb-4 white-text text-center" ><span id="feedback-Var"></span></strong></div>
+                    <div class="Pregunta" class="col-md-6 mb-4" style = "font-family:georgia,garamond,serif;color:white" ><strong><span id="feedback-Var"></span></strong></div>
                     
                   </div></div></div></div></div></div></div>
 
@@ -191,8 +193,8 @@
           const p1 = 
           {qu:"¿Cuál es el significado de la palabra Tilarán?"
               //^^^ Pregunta ^^^
-              ,feedback:"De hecho se dice que el nombre Tilarán proviene del vocablo indígena Tila-wa, que quiere decir Lugar de Vientos y Lluvias... Parece que el clima no ha cambiado tanto... después de todo"
-              ,badfeedback:"Dicen que el nombre Tilarán proviene del vocablo indígena Tila-wa, que quiere decir Lugar de Vientos y Lluvias... Parece que el clima no ha cambiado tanto... después de todo"
+              ,feedback:"De hecho se dice que el nombre Tilarán proviene del vocablo indígena Tila-wa, que quiere decir Lugar de Vientos y Lluvias... Parece que el clima no ha cambiado tanto... después de todo."
+              ,badfeedback:"Dicen que el nombre Tilarán proviene del vocablo indígena Tila-wa, que quiere decir Lugar de Vientos y Lluvias... Parece que el clima no ha cambiado tanto... después de todo."
               // VVV OPCIONES DE RESPUESTA VVV
               ,ans_1:"La Tierra del Viento" 
               ,ans_2:"Lugar de Vientos y Lluvias" 
@@ -206,8 +208,8 @@
         const p2 = 
           {qu:"Originalmente Tilarán tenía nombre de un animal ¿Cuál era?"
               //^^^ Pregunta ^^^
-              ,feedback:"¡Que carga!, sí a principios de siglo los trabajadores de las minas se convirtieron en colonos... fundando en 1905 el caserío de La Cabra... estaba más o menos a 1km al sureste de la actual Catedral"
-              ,badfeedback:"¡jaja!, no la historia es interesante a principios de siglo los trabajadores de las minas se convirtieron en colonos... fundando en 1905 el caserío de La Cabra."
+              ,feedback:"¡Que carga! A principios del siglo XX los trabajadores de las minas se convirtieron en colonos, fundando en 1905 el caserío de La Cabra. Estaba más o menos a 1km al sureste de la actual Catedral."
+              ,badfeedback:"¡jajaja! No, la historia es interesante. A principios del siglo XX los trabajadores de las minas se convirtieron en colonos, fundando en 1905 el caserío de La Cabra."
               // VVV OPCIONES DE RESPUESTA VVV
               ,ans_1:"El Gavilán" 
               ,ans_2:"El Toro" 
@@ -222,11 +224,11 @@
         const p3 = 
           {qu:"Una fácil... Los indígenas que poblaron estas tierras fueron los:"
               //^^^ Pregunta ^^^
-              ,feedback:"Esa estaba re-fácil... pero no está de mas recordarnos de lo que aprendimos en la escuela. Eran los Huetares incluso hay un vestigio de una calzada que atravesaba el la sierra minera"
-              ,badfeedback:"Ay.. pero estaba re-fácil...Eran los Huetares incluso hay un vestigio de una calzada que atravesaba el la sierra minera"
+              ,feedback:"Esa estaba re-fácil; pero no está de más acordarnos de lo que aprendimos en la escuela: Fueron los Huetares, incluso hay un vestigio de una calzada que atravesaba la sierra minera"
+              ,badfeedback:"¡Ay.. pero si estaba re-fácil! Eran los Huetares. Incluso hay un vestigio de una calzada que atravesaba la sierra minera"
               // VVV OPCIONES DE RESPUESTA VVV
-              ,ans_1:"Chorotegass" 
-              ,ans_2:"Guaymies" 
+              ,ans_1:"Chorotegas" 
+              ,ans_2:"Guaymíes" 
               ,ans_3:"Apaches" 
               ,ans_4:"Huetares" 
               ,ans_ok:4
@@ -235,13 +237,13 @@
             };
         // Pregunta 4 *****************************************
         const p4 = 
-          {qu:"El Cerro Tovar vigila Tilarán... ¿Cuál de estas es verdadera? "
+          {qu:"El Cerro Tovar vigila Tilarán.¿Cuál de estas afirmaciones es verdadera?"
               //^^^ Pregunta ^^^
-              ,feedback:"El cementerio huetar estaba a 8km del cerro los pobladores llevaban las lajas para honrar a sus muertos. También fue un Volcán activo hace unos cuantos millones de años... y no se llama Tovar se llama Tilarán"
-              ,badfeedback:"El cementerio huetar estaba a 8km del cerro los pobladores llevaban las lajas de hasta 40kg para honrar a sus muertos. También fue un Volcán activo hace unos cuantos millones de años... y no se llama Tovar se llama Cerro Tilarán"
+              ,feedback:"El cementerio huetar estaba a 8km del cerro.Los pobladores llevaban las lajas para honrar a sus muertos. También fue un volcán activo hace unos cuantos millones de años y no se llama Cerro Tovar sino Cerro Tilarán"
+              ,badfeedback:"El cementerio huetar estaba a 8km del cerro.Los pobladores llevaban las lajas para honrar a sus muertos. También fue un volcán activo hace unos cuantos millones de años y no se llama Cerro Tovar sino Cerro Tilarán"
               // VVV OPCIONES DE RESPUESTA VVV
-              ,ans_1:"Es un Volcán Extinto" 
-              ,ans_2:"Fue una Antigua Cantera Indígena" 
+              ,ans_1:"Es un volcán extinto" 
+              ,ans_2:"Fue una antigua cantera indígena" 
               ,ans_3:"Su nombre oficial es Cerro Tilarán" 
               ,ans_4:"¡Todas son Correctas!" 
               ,ans_ok:4
@@ -250,10 +252,10 @@
             };
         // Pregunta 5 *****************************************
         const p5 = 
-          {qu:"En el Escudo del Cantón hay dos ramitas una a cada lado. ¿Qué productos son?"
+          {qu:"En el Escudo del Cantón hay dos ramitas.¿Cuáles productos representan?"
               //^^^ Pregunta ^^^
-              ,feedback:"Si fuiste a la escuela en Tilarán esa estaba muerta... Así es Maíz a la izquierda y Café a la derecha. También las Eólicas en las montañas no podían faltar"
-              ,badfeedback:"Si fuiste a la escuela en Tilarán debería estar fácil... Maíz a la izquierda y Café a la derecha. También las Eólicas en las montañas no podían faltar"
+              ,feedback:"Si fuiste a la escuela en Tilarán la pregunta está muerta.¡Así es! Maíz a la izquierda y café a la derecha. También las Eólicas en las montañas y la Cruz del Cerro"
+              ,badfeedback:"Parece que hace rato saliste de la escuela.¿O será que cambiaron el Escudo? Café a la derecha y una mazorca a la izquierda. También las Eólicas en las montañas y la Cruz en el Cerro."
               // VVV OPCIONES DE RESPUESTA VVV
               ,ans_1:"Trigo y Café" 
               ,ans_2:"Algodón y Caña" 
@@ -265,40 +267,40 @@
             };
         // Pregunta 6 *****************************************
         const p6 = 
-          {qu:"Un 14 de Abril tembló durísimo en Tilarán... ¿En qué año fue el terremoto que cobró la vida de 23 tilaranenses?"
+          {qu:"Un 14 de Abril tembló durísimo en Tilarán.¿En qué año fue el terremoto que cobró la vida de 23 tilaranenses?"
               //^^^ Pregunta ^^^
-              ,feedback:"fue de madrugada... a las 2:34 cuentan quienes lo vivieron... un deslizamiento aterro un caserío cerca de Rio Chiquito. (esa estaba dificil... ¡Muy Bien!)"
-              ,badfeedback:" un dia triste sin duda... fue de madrugada... a las 2:34 cuentan quienes lo vivieron... un deslizamiento aterro un caserío cerca de Rio Chiquito. Interesante recordar la historia."
+              ,feedback:"Fue de madrugada.A las 2:34 cuentan quienes lo vivieron. Un deslizamiento aterró un caserío cerca de Río Chiquito. (Esa estaba difícil... ¡Muy Bien!)"
+              ,badfeedback:" Un día triste sin duda. Fue de madrugada, a las 2:34 ,cuentan quienes lo vivieron. Un deslizamiento aterró un caserío cerca de Río Chiquito. Interesante recordar la historia."
               // VVV OPCIONES DE RESPUESTA VVV
               ,ans_1:"1946" 
               ,ans_2:"1973" 
               ,ans_3:"1981" 
-              ,ans_4:"No mienta, en Tilarán No tiembla" 
+              ,ans_4:"¡No mienta! ¡En Tilarán no tiembla!" 
               ,ans_ok:2
               ,imagenFondo:"img/q6.jpg"
               ,imagenrespuesta:"img/a6.jpg"
             };
         // Pregunta 7 *****************************************
         const p7 = 
-          {qu:"¿A que se debe el nombre del distrito de Tronadora?"
+          {qu:"¿Cuál es el origen del nombre Tronadora?"
               //^^^ Pregunta ^^^
-            ,feedback:"Esooo... Así es el árbol de Tronadora dá unas flores lindísimas"
-              ,badfeedback:" Yo esta también la saqué mala.. Pero aprendí que el árbol de Tronadora ¡da unas flores lindísimas!"
+            ,feedback:"¡Impresionante!¡Así es! El árbol de Tronadora da unas flores amarillas lindísimas"
+              ,badfeedback:" Ésta también yo la saqué mala. Pero aprendí que el árbol de Tronadora da unas flores lindísimas."
               // VVV OPCIONES DE RESPUESTA VVV
-              ,ans_1:"A que caen muchos rayos" 
-              ,ans_2:"A los retumbos del Volcán" 
+              ,ans_1:"Es porque caen muchos rayos" 
+              ,ans_2:"Es debido a los retumbos del Volcán" 
               ,ans_3:"Es el nombre de un árbol" 
-              ,ans_4:"Es por una señora muy brava que vivía ahí" 
+              ,ans_4:"Es por una señora muy brava que se lo tronaba a uno" 
               ,ans_ok:3
               ,imagenFondo:"img/q7.jpg"
               ,imagenrespuesta:"img/a7.jpg"
             };
         // Pregunta 8 *****************************************
         const p8 = 
-          {qu:"Volvamos al Escudo de Tilarán ¿Cuántas estrellas hay en la parte superior?"
+          {qu:"Volvamos al Escudo de Tilarán. ¿Cuántas estrellas hay en la parte superior?"
               //^^^ Pregunta ^^^
-              ,feedback:"Espero que no hayas ido a buscar...jaja. Así es una por cada distrito del cantón."
-              ,badfeedback:"Son siete... como los siete distritos de Tilarán"
+              ,feedback:"Espero que no hayas ido a buscar...jajaja. Son siete: Una por cada distrito del cantón."
+              ,badfeedback:"Son siete... como son también siete los distritos de Tilarán"
               // VVV OPCIONES DE RESPUESTA VVV
               ,ans_1:"Cinco" 
               ,ans_2:"Nueve" 
@@ -310,10 +312,10 @@
             };
         // Pregunta 9 *****************************************
         const p9 = 
-          {qu:"¿Cuántos años cumple Tila el 21 de Agosto?"
+          {qu:"¿ Cuántos años cumple Tila este 21 de Agosto ?"
               //^^^ Pregunta ^^^
-              ,feedback:"¡De aquí a 3 años estamos en pachanga de centenario!"
-              ,badfeedback:"Cumplirá 97 años Te cuento que ¡De aquí a 3 años estamos en pachanga de centenario!"
+              ,feedback:"¡De aquí a tres años estaremos en pachanga de Centenario!"
+              ,badfeedback:"Cumplirá 97 años.Te cuento que de aquí a 3 años estaremos en pachanga de Centenario!"
               // VVV OPCIONES DE RESPUESTA VVV
               ,ans_1:"130 años" 
               ,ans_2:"97 años" 
@@ -325,10 +327,10 @@
             };
         // Pregunta 10 *****************************************
         const p10 = 
-          {qu:"Una fácil para terminar.. ¿Cómo se llama el Santo Patrono de Tilarán?"
+          {qu:"Vamos con la última... ¿Cómo se llama el Santo Patrono de Tilarán?"
               //^^^ Pregunta ^^^
-              ,feedback:"facil... Antonio de Padua, también conocido como san Antonio de Lisboa, fue un sacerdote de la Orden Franciscana, predicador y teólogo portugués"
-              ,badfeedback:"¡Hay que ir más a misa! jaja. El Santo de Tilarán se llama San Antonio de Padua... tambien conocido como San Antonio de Lisboa"
+              ,feedback:"Fácil ¿Verdad?. San Antonio de Padua, también conocido como San Antonio de Lisboa, fue un sacerdote de la Orden Franciscana, predicador y teólogo portugués"
+              ,badfeedback:"¡Hay que ir más a misa! jajaja. El Santo Patrono de Tilarán se llama San Antonio de Padua, también conocido como San Antonio de Lisboa."
               // VVV OPCIONES DE RESPUESTA VVV
               ,ans_1:"San Francisco" 
               ,ans_2:"San Antonio" 
@@ -369,7 +371,7 @@
             const matriz = [p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11];
 
   var ayma =0;
-
+   sombraBlanca();
   //esto es para enviar las variables al html
   let preguntavar = document.getElementById("pregunta-Var");
   let ans1 = document.getElementById("ans1-Var");
@@ -384,8 +386,8 @@
   let titulo2 = document.getElementById("titulo2-Var");
   let Cual_pregunta=1; // contador
   let marcador=0;
-    console.log("probando consola 2");
-    cambiatitulo("Escoge la Respuesta Correcta");
+    //console.log("probando consola 2");
+    cambiatitulo("HOLA BIENVENIDO. MUCHA SUERTE Y ¡ QUE TE DIVIERTAS !");
   //aquí inicializamos los valores de la primera pregunta
   asignaPregunta(matriz[ayma]); //con esto voy cambiando los títulos
   asignaANS1(matriz[ayma]);
@@ -395,7 +397,7 @@
   cambiafondo1();
 
   //estas funciones sirven para cambiar spans arriba
-  function asignaPregunta(pregunta) {   console.log(matriz[ayma].qu);
+  function asignaPregunta(pregunta) {   //console.log(matriz[ayma].qu);
                                         preguntavar.textContent = pregunta.qu;}
   function asignaANS1(respuesta) {      ans1.textContent = respuesta.ans_1;}
   function asignaANS2(respuesta) {      ans2.textContent = respuesta.ans_2;}
@@ -431,7 +433,7 @@
                               y.style.display="block";
                             }
 
-  function nextQuestion() {   cambiatitulo(`Pregunta # ${ayma+1}:`);
+  function nextQuestion() {   cambiatitulo(`PREGUNTA # ${ayma+1} DE 1O:`);
                               var q=document.getElementById("botonsiguiente");
                               q.style.display="none";
                               var w=document.getElementById("cajaFeedBack");
@@ -442,26 +444,35 @@
                               r.style.display="block";
                               cambiafondo1();
                           }
- 
+
+
+              function sombraBlanca(){
+                                    var x=document.getElementById("preguntame");
+                                    x.style.textShadow ="0px 5px 10px #0a0a09,4px -3px 9px #030303"
+                                    var x=document.getElementById("preguntame2");
+                                    x.style.textShadow ="0px 5px 10px #0a0a09,4px -3px 9px #030303";}  
               function sombraRoja(){
                                     var x=document.getElementById("preguntame2");
-                                    x.style.textShadow =" 2px 2px 0 #FF0000, 2px -2px 0 #FF0000, -2px 2px 0 #FF0000, -2px -2px 0 #FF0000, 2px 0px 0 #FF0000, 0px 2px 0 #FF0000, -2px 0px 0 #FF0000, 0px -2px 0 #FF0000";}
+                                    x.style.color ="#ff0000";
+                                    x.style.fontSize = "50px";}
               function sombraNaranja(){
                                     var x=document.getElementById("preguntame2");
-                                    x.style.textShadow =" 2px 2px 0 #EE933F, 2px -2px 0 #EE933F, -2px 2px 0 #EE933F, -2px -2px 0 #EE933F, 2px 0px 0 #EE933F, 0px 2px 0 #EE933F, -2px 0px 0 #EE933F, 0px -2px 0 #EE933F";}
+                                    x.style.textShadow ="0px 5px 10px #ffffff,-1px -1px 5px #ffffff";}
               function sombraVerde(){
                                     var g=document.getElementById("preguntame2");
-                                    g.style.textShadow =" 2px 2px 0 #467405, 2px -2px 0 #467405, -2px 2px 0 #467405, -2px -2px 0 #467405, 2px 0px 0 #467405, 0px 2px 0 #467405, -2px 0px 0 #467405, 0px -2px 0 #467405";}
+                                    g.style.color ="#03fc0b";
+                                    g.style.fontSize = "50px";
+                                    g.style.textShadow ="0px 5px 10px #0a0a09,4px -3px 9px #030303"}
               function sombraAzul(){
                                     var h=document.getElementById("preguntame2");
-                                    h.style.textShadow =" 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5";}
+                                    h.style.textShadow ="0px 5px 10px #ffffff,-1px -1px 5px #ffffff";}
             function MasGrande(){
                                     var i=document.getElementById("preguntame2");
                                     i.style.fontSize ="xx-large";}
             function VolveraJugar(){location.reload();}
 
 
-            function fondoPremio(imagen){var str3 = imagen;
+            function fondoPremio(imagenF){var str3 = imagenF;
                               document.getElementById("mifotofinal").src = str3 ;
                         }
 
@@ -508,7 +519,7 @@
       if (matriz[ayma].ans_ok == mmssjj) 
             {mensaje="esta respuesta está buena";
              sombraVerde();
-      cambiatitulo2(`Tenés Razón!`);
+      cambiatitulo2(`¡ TENÉS  RAZÓN !`);
       marcador++;
       //funcion, muestra felicitacion1 
        
@@ -519,10 +530,10 @@
       else  {
               asignabadfeedback(matriz[ayma]);
               sombraRoja();
-              cambiatitulo2(`No... Te la sacaste mala`);
+              cambiatitulo2(`AUCH... TE LA SACASTE MALA`);
               mensaje="esta respuesta está mala";
       }
-      if (Cual_pregunta <10){ console.log(Cual_pregunta);
+      if (Cual_pregunta <10){ //console.log(Cual_pregunta);
 
         cambiafondo2();       
         ayma++;
@@ -550,7 +561,7 @@
               var x=document.getElementById("botonfinal");
               x.style.display="block";
               
-              console.log("llegamos al final");
+              //console.log("llegamos al final");
             }
     }
 
@@ -573,17 +584,29 @@
                                 var x=document.getElementById("botonfinal");
                                 x.style.display="none";    
                                 //revisemos como le fué a este  muchacho
-                                if (marcador<3){ mensaje = pesimo; sombraRoja();
+                                if (marcador<4){ mensaje = pesimo; sombraRoja();
+                                console.log("PESIMO");
+                                console.log(marcador);
                                 fondoPremio("img/welcome3.jpg");}  
-                                  else{ if (marcador<5){ mensaje = masomenos; sombraNaranja();
-                                    fondoPremio("img/welcome5.jpg");} 
+                                  else{ if (marcador<7){  mensaje = masomenos;
+                                                          sombraNaranja();
+                                                          console.log("MASOMENOS");
+                                                          console.log(marcador);
+                                                          fondoPremio("img/welcome5.jpg");
+                                                        } 
                                    
-                                          else{ if (marcador<7){ mensaje = casicasi;sombraVerde();
+                                          else{ if (marcador<9){ mensaje = casicasi;sombraVerde();
+                                            console.log("CASICASI");
+                                console.log(marcador);
                                             fondoPremio("img/welcome8.jpg");}  
-                                                  else{  if (marcador<9){ mensaje = bien; 
+                                                  else{  if (marcador=9){ mensaje = bien; 
+                                                    console.log("NUEVE");
+                                console.log(marcador);
                                                     fondoPremio("img/welcome9.jpg");
                                                     sombraAzul();}  
                                                           else{mensaje=unpro;
+                                                            console.log("eDIEXXX");
+                                console.log(marcador);
                                                           fondoPremio("img/welcome10.jpg");
                                                             sombraAzul();}
                                                        }
@@ -614,7 +637,7 @@
                                     else
                                     {
                                       muestraResultado();
-                                      console.log('aqui desplegar results');
+                                      //console.log('aqui desplegar results');
                                       //vamos al final
                                     }  
 
@@ -628,7 +651,7 @@
         function zx(e){
         var charCode = (typeof e.which == "number") ? e.which : e.keyCode
         TECLA = charCode;
-        console.log(TECLA);
+        //console.log(TECLA);
           var y=document.getElementById("cajaPreguntas");
           if(y.style.display=="block"){conTecladoQuest(TECLA);}
             else {var w=document.getElementById("cajaFeedBack");

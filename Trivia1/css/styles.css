@@ -564,6 +564,17 @@ pre code {
   overflow-y: scroll;
 }
 
+p.Pregunta {
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
 
 <style>
 div.Pregunta {
